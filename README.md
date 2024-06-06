@@ -25,11 +25,11 @@ https://github.com/Jay-sanjay/Fake-Image-Detection
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+python3 -m venv env
 ```
 
 ```bash
-conda activate cnncls
+source env/bin/activate
 ```
 
 
@@ -38,6 +38,13 @@ conda activate cnncls
 pip install -r requirements.txt
 ```
 
+### STEP 03- install Dataset
+For ease of the user I have uploaded the dataset on GoogleDrive, and to add it to your project just run
+```bash
+python main.py
+```
+
+### STEP 04- Live Preview of the Web-App !!
 ```bash
 # Finally run the following command
 python app.py
