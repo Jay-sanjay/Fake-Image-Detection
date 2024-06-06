@@ -62,7 +62,12 @@ This could possibly be increasing the number of Epochs and other changing other 
 9. Update the dvc.yaml
 10. app.py
 
+## Prediction Workflow
+![image](https://github.com/Jay-sanjay/Fraudulent-Image-Detection/assets/134289328/e7561ce6-e083-4cf9-8367-8648040dabe4)
 
+
+## Model Architecture
+![image](https://github.com/Jay-sanjay/Fraudulent-Image-Detection/assets/134289328/e5bf9c1e-1c74-4303-83c6-46587309aafb)
 
 
 ## MLflow
