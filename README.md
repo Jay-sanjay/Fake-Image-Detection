@@ -1,19 +1,6 @@
 # Fake Image Detection
 
 
-## Workflows
-
-1. Update config.yaml
-2. Update secrets.yaml [Optional]
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
-9. Update the dvc.yaml
-10. app.py
-
 # How to run?
 ### STEPS:
 
@@ -56,6 +43,24 @@ open up you local host and port
 ```
 
 
+## Improving the performance:
+Once the app works fine on your local machine you can go added and tweak the model parameters [here](https://github.com/Jay-sanjay/Fraudulent-Image-Detection/blob/main/params.yaml) . 
+This could possibly be increasing the number of Epochs and other changing other Hyper-Parameters.
+
+
+
+## Workflows
+
+1. Update config.yaml
+2. Update secrets.yaml [Optional]
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the dvc.yaml
+10. app.py
 
 
 
@@ -86,9 +91,10 @@ export MLFLOW_TRACKING_USERNAME=Jay-sanjay
 export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 
 ```
+## Contributing to this Project:
+#### We currently have following more tasks that can be add to the project to increase it's diversity:
 
-
-### DVC cmd
+### Add DVC and MLFlow integration
 
 1. dvc init
 2. dvc repro
@@ -111,12 +117,12 @@ DVC
  - It can perform Orchestration (Creating Pipelines)
 
 
+## Currently we are using the python Application for CI/CD workflow , but for future we would like to have AWS-CICD workflows:
+### AWS-CICD-Deployment-with-Github-Actions
 
-# AWS-CICD-Deployment-with-Github-Actions
+### 1. Login to AWS console.
 
-## 1. Login to AWS console.
-
-## 2. Create IAM user for deployment
+### 2. Create IAM user for deployment
 
 	#with specific access
 
@@ -144,13 +150,13 @@ DVC
 	2. AmazonEC2FullAccess
 
 	
-## 3. Create ECR repo to store/save docker image
+### 3. Create ECR repo to store/save docker image
     - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
 
 	
-## 4. Create EC2 machine (Ubuntu) 
+### 4. Create EC2 machine (Ubuntu) 
 
-## 5. Open EC2 and Install docker in EC2 Machine:
+### 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
 	#optinal
@@ -169,11 +175,11 @@ DVC
 
 	newgrp docker
 	
-# 6. Configure EC2 as self-hosted runner:
+### 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 
-# 7. Setup github secrets:
+### 7. Setup github secrets:
 
     AWS_ACCESS_KEY_ID=
 
