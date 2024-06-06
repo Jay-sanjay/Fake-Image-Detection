@@ -1,0 +1,5 @@
+__pycache__/
+artifacts/data_ingestion/data/df/
+artifacts/data_ingestion/data/real/
+artifacts/data_ingestion/Dataset.zip/
+venv/
