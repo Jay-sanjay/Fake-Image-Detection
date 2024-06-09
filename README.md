@@ -1,15 +1,20 @@
 # Fake Image Detection
 
 
-# How to run?
-### STEPS:
+## Getting Started
 
-Clone the repository
+### Pre-requisites
+
+Ensure you have Python 3.12 installed on your system. This project also requires a webcam for hand gesture recognition.
+
+### Installation
+
+1. Clone the repository to your local machine:
 
 ```bash
 https://github.com/Jay-sanjay/Fake-Image-Detection
 ```
-### STEP 01- Create a conda environment after opening the repository
+2. Create a conda environment after opening the repository
 
 ```bash
 python3 -m venv env
@@ -20,18 +25,18 @@ source env/bin/activate
 ```
 
 
-### STEP 02- install the requirements
+3. install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### STEP 03- install Dataset
+4. install Dataset
 For ease of the user I have uploaded the dataset on GoogleDrive, and to add it to your project just run
 ```bash
 python main.py
 ```
 
-### STEP 04- Live Preview of the Web-App !!
+5. Live Preview of the Web-App !!
 ```bash
 # Finally run the following command
 python app.py
