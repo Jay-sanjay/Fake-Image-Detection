@@ -79,5 +79,6 @@ This could possibly be increasing the number of Epochs and other changing other 
 - [ ] Dockerize the Codebase.
 - [ ] Add comments for better code readibility.
 - [ ] Host using Amazon-AWS.
+- [ ] Add CITATION.bib files
 
 
