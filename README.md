@@ -74,6 +74,10 @@ This could possibly be increasing the number of Epochs and other changing other 
 ## Model Architecture
 ![image](https://github.com/Jay-sanjay/Fraudulent-Image-Detection/assets/134289328/e5bf9c1e-1c74-4303-83c6-46587309aafb)
 
-
+## TODO's: 
+- [ ] Add support for Video Frogery detection.
+- [ ] Dockerize the Codebase.
+- [ ] Add comments for better code readibility.
+- [ ] Host using Amazon-AWS.
 
 
