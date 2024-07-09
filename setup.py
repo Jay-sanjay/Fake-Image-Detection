@@ -17,12 +17,12 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A Compact Facial Video Forgery Detection Network using Deep Learning ",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/Jay-sanjay/Fake-Image-Detection",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/Jay-sanjay/Fake-Image-Detection/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
