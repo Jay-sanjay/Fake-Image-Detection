@@ -66,7 +66,7 @@ class Meso4(Classifier):
 
 # Instantiate a MesoNet model with pretrained weights
 meso = Meso4()
-meso.load('/home/jay-sanjay/Downloads/weights/Meso4_DF.h5')
+meso.load('weights/Meso4_DF.h5')
 
 class PredictionPipeline:
     def __init__(self, filename):
